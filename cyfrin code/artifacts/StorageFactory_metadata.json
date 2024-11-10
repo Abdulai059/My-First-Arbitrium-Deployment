@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "createSimpleStoragecontract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "listOfmysimplecontracts",
+				"outputs": [
+					{
+						"internalType": "contract simplecontract",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_newSimpleStorageNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "sfstoreNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"cyfrin code/StorageFactory.sol": "StorageFactory"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"cyfrin code/SimpleStorage.sol": {
+			"keccak256": "0xa90cca2c9f05fa302552ab8ba3c860cda5927a4f3ce75abc6bcfe5d828ccbcf4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f39e30f09f9c5340fe70cb277657607f97ac13bdc4f9bf967a6c10dd506be260",
+				"dweb:/ipfs/QmYw8uCpUkcrYHrUNke196ucLA6EzS8dpVzSHGgopHNjGt"
+			]
+		},
+		"cyfrin code/StorageFactory.sol": {
+			"keccak256": "0x102409935dcd5a1207f73880a53881b74e7ab61add758f0a931e843714f24c87",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8a5e7734db235ddeff572593ff383455eef03cbd7d0279b6802faab90863a2f7",
+				"dweb:/ipfs/QmVTxNL9AJ4xKpoDbpH3C3ntR1Fp5NC66e8QjhgH1kAzCe"
+			]
+		}
+	},
+	"version": 1
+}
