@@ -1,4 +1,4 @@
- HelloArbitrum Smart Contract
+ # HelloArbitrum Smart Contract
 
 This is a simple Solidity smart contract that demonstrates deployment on the Arbitrum Sepolia Testnet. The contract stores a customizable message that can be updated and viewed publicly on the blockchain.
 
